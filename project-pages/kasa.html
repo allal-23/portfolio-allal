@@ -1,0 +1,165 @@
+
+
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+
+
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+     <link rel="icon" href="../assets/images/1311.png" />
+     <title>Portfolio de Allal</title>
+    <meta name="description" content="A portfolio template for the Unemployables community.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <!-- 
+          TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
+
+          (this should be the same across all pages)
+         -->
+        <span class="nav-title">Portfolio de Allal</span>
+        <!-- 
+          TODO - Change the email after 'mailto:' to your email address for contact 
+        
+          (this should be the same across all pages)
+        -->
+        <a class="button" href="mailto:whitevans.eth@gmail.com">
+          <span class="button-text">Contactez-Moi</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+          <!-- 
+            TODO
+
+            - Change the 'main-title' text to the name of your project
+            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+          -->
+        <div class="main-title">Kasa</div>
+        <div class="body-text">J'ai eu le privilège de participer à un projet passionnant de développement d'une application web de location immobilière en utilisant React. En tant que développeur front-end en freelance, j'ai été recruté par Kasa, une entreprise leader dans la location d'appartements entre particuliers en France, pour repenser leur plateforme en adoptant la dernière technologie JavaScript.</div>
+        <image class="project-header-image" src="../assets/images/kasa.PNG">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <!-- 
+        TODO
+
+        - Change the 'subheader-text' to whatever header you want for project details
+        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+      -->
+      <div id="project-details">
+        <div class="subheader-text">Détails du projet</div>
+        <div class="project-details-content">
+          <div class="body-text">Ce projet a été une opportunité unique pour moi de travailler en tant que développeur front-end indépendant au sein de l'équipe de Kasa, une entreprise qui a redéfini le secteur de la location immobilière en France. J'ai eu l'occasion de contribuer à la refonte totale de leur site web, qui était basé sur une technologie legacy ASP.NET datant de plus de dix ans. Sous la direction de Laura, la CTO de Kasa, j'ai travaillé avec la dernière technologie JavaScript, notamment React pour le front-end, et NodeJS pour le back-end. La refonte incluait également des maquettes fraîchement conçues par un designer freelance. Mon rôle était de traduire ces maquettes en une application web fonctionnelle, responsive et esthétiquement attrayante.</div>
+          <div class="body-text">L'aventure a commencé avec un e-mail de bienvenue de Laura, qui m'a exposé les enjeux du projet et les attentes. Mon objectif principal était de donner vie au projet React en développant tous les composants React, en établissant les routes avec React Router, et en suivant fidèlement les maquettes Figma, en veillant à ce que le site soit responsive. Une particularité de ce projet était l'absence temporaire de l'équipe de développement back-end, m'obligeant à travailler avec des données statiques extraites d'un fichier JSON. J'ai également reçu des instructions précises sur les fonctionnalités, telles que la gestion de la galerie d'images et les animations des menus déroulants (Collapse). Paul, le designer, a contribué en fournissant des ressources et en expliquant les détails du design. J'ai eu le plaisir de travailler avec des animations CSS et d'explorer de nouvelles fonctionnalités pour garantir une expérience utilisateur de haute qualité. En fin de compte, ce projet m'a permis de développer des compétences en React, de travailler en freelance, de gérer des contraintes techniques, et d'ajouter une référence précieuse à mon portfolio.
+        </div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/kasa1.PNG" class="gallery-image">
+              <span class="image-caption"></span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/kasa2.PNG" class="gallery-image">
+              <span class="image-caption"></span>
+            </div>
+            <!-- <div class="gallery-image-container">
+              <img src="../assets/images/camera.jpeg" class="gallery-image">
+              <span class="image-caption">Give your image a caption. People love context.</span>
+            </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+        <image src="../assets/icons/instagram.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+        <image src="../assets/icons/twitter.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
