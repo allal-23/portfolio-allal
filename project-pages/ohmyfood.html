@@ -1,0 +1,164 @@
+
+
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+
+
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+     <link rel="icon" href="../assets/images/1311.png" />
+     <title>Portfolio de Allal</title>
+    <meta name="description" content="A portfolio template for the Unemployables community.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <!-- 
+          TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
+
+          (this should be the same across all pages)
+         -->
+        <span class="nav-title">Portfolio de Allal</span>
+        <!-- 
+          TODO - Change the email after 'mailto:' to your email address for contact 
+        
+          (this should be the same across all pages)
+        -->
+        <a class="button" href="mailto:whitevans.eth@gmail.com">
+          <span class="button-text">Contactez-Moi</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+          <!-- 
+            TODO
+
+            - Change the 'main-title' text to the name of your project
+            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+          -->
+        <div class="main-title">OhMyFood</div>
+        <div class="body-text">Ce projet implique l'amélioration de l'interface d'un site web mobile grâce à des animations CSS. En tant que développeur junior chez Ohmyfood, vous devez transformer les maquettes en un site "mobile-first" qui répertorie les menus de restaurants gastronomiques, tout en intégrant des animations CSS pour une expérience utilisateur plus attrayante.</div>
+        <image class="project-header-image" src="../assets/images/ohmyfood.PNG">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <!-- 
+        TODO
+
+        - Change the 'subheader-text' to whatever header you want for project details
+        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+      -->
+      <div id="project-details">
+        <div class="subheader-text">Détails du projet</div>
+        <div class="project-details-content">
+          <div class="body-text">Ce projet est centré sur l'amélioration de l'interface d'un site web mobile. Vous avez récemment intégré l'équipe d'Ohmyfood en tant que développeur junior, une startup ayant pour objectif de s'imposer sur le marché de la restauration à Paris. Votre mission consiste à développer un site "mobile first" qui répertorie les menus des restaurants gastronomiques de la ville. L'approche "mobile first" vise à garantir une expérience utilisateur optimale sur les appareils mobiles, tout en étant responsive sur les tablettes et les ordinateurs de bureau.</div>
+          <div class="body-text">Lors de la soutenance, j'ai eu l'occasion de présenter mes choix techniques, notamment la manière dont j'ai réalisé les animations, comment j'ai organisé mon code CSS, et ma démarche pour aborder la conception "mobile first". Ce projet a été une occasion précieuse pour moi d'appliquer des compétences d'intégration de maquettes, de maîtriser l'art des animations CSS pour améliorer l'expérience utilisateur, et de découvrir la gestion de versions avec Git et Github. Plus important encore, il m'a permis de contribuer au succès d'une jeune startup évoluant dans le secteur de la restauration.</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/ohmyfood1.PNG" class="gallery-image">
+              <span class="image-caption"></span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/ohmyfood3.PNG" class="gallery-image">
+              <span class="image-caption"></span>
+            </div>
+            <!-- <div class="gallery-image-container">
+              <img src="../assets/images/camera.jpeg" class="gallery-image">
+              <span class="image-caption">Give your image a caption. People love context.</span>
+            </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+        <image src="../assets/icons/instagram.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+        <image src="../assets/icons/twitter.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
